@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping(value = "/peliculas")
+@RequestMapping(value = "/propietarios")
 public class Propietarios {
     
     @GetMapping("/list")
     public String listPeliculas(){
-        return "pelicula";
+        return "propeitarios";
     }
 }
