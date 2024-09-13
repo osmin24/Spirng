@@ -1,5 +1,5 @@
 package com.example.demo.repository;
 
-public class pelicula {
+public class Flores {
     
 }
